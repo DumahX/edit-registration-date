@@ -47,7 +47,7 @@ if ( ! class_exists( 'Edit_Registration_Date' ) ) {
               <label for="erd_registration_date"><?php esc_html_e( 'Registration Date', 'edit-registration-date' ); ?></label>
             </th>
             <td>
-              <input type="text" name="erd_registration_date" id="erd_registration_date" value="<?php echo $user->user_registered; ?>">
+              <input type="text" name="erd_registration_date" id="erd_registration_date" value="<?php echo esc_attr( $user->user_registered ); ?>">
             </td>
           </tr>
         </tbody>
@@ -67,7 +67,7 @@ if ( ! class_exists( 'Edit_Registration_Date' ) ) {
         return;
       }
 
-      $registration_date = isset( $_POST['erd_registration_date'] ) ? trim( $_POST['erd_registration_date'] ) : '';
+      $registration_date = isset( $_POST['erd_registration_date'] ) ? sanitize_text_field( $_POST['erd_registration_date'] ) : '';
 
       if ( empty( $registration_date ) ) {
         $this->errors[ 'registration_date_empty' ] = __( 'Registration date cannot be empty.', 'edit-registration-date' );
@@ -77,7 +77,7 @@ if ( ! class_exists( 'Edit_Registration_Date' ) ) {
         $this->errors[ 'registration_date_type' ] = __( 'Registration date must be in a valid date format.', 'edit-registration-date' );
       }
 
-      if ( count( $this->errors ) > 0 ) {
+      if ( is_countable( $this->errors ) && count( $this->errors ) > 0 ) {
         return;
       }
 

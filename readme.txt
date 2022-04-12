@@ -2,6 +2,7 @@
 Contributors: tylerthedude
 Tags: registration date, edit registration date, edit date
 Tested up to: 5.9.3
+Stable Tag: 1.0.0
 Requires PHP: 5.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
