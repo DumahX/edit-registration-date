@@ -1,0 +1,51 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Edit Registration Date\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-12 00:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: edit-registration-date"
+
+#. Name of the plugin
+msgid "Edit Registration Date"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://tcgilbert.com/"
+msgstr ""
+
+#: Edit_Registration_Date.php:47
+msgid "Registration Date"
+msgstr ""
+
+#: Edit_Registration_Date.php:73
+msgid "Registration date cannot be empty."
+msgstr ""
+
+#: Edit_Registration_Date.php:77
+msgid "Registration date must be in a valid date format."
+msgstr ""
+
+#: Edit_Registration_Date.php:85
+msgid "There was an issue with saving the registration date."
+msgstr ""
+
+#. Author of the plugin
+msgid "Tyler Gilbert"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Very simple plugin that allows you to easily edit a user's registration date "
+"in WordPress."
+msgstr ""
