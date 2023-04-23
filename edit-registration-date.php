@@ -5,7 +5,7 @@ Plugin Name: Edit Registration Date
 Description: Very simple plugin that allows you to easily edit a user's registration date in WordPress.
 Author: Tyler Gilbert
 Author URI: https://tcgilbert.com/
-Version: 1.0.1
+Version: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: edit-registration-date
